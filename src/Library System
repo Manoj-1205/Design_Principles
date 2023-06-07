@@ -1,0 +1,31 @@
+Certainly! Here's a simple question that adheres to all SOLID principles:
+
+Question: Design a system for a library that manages books, patrons, and borrowing transactions. 
+The system should allow patrons to borrow and return books, while ensuring proper validation and tracking of book availability.
+
+Requirements:
+
+1. The system should maintain a catalog of books with information such as title, author, genre, and availability.
+2. Patrons should be able to search for books by title or author.
+3. Patrons should be able to borrow books from the library, and the system should enforce limits on the number of books a patron can borrow.
+4. The system should track borrowing transactions, including due dates and overdue fees.
+5. The system should provide a notification system to alert patrons about approaching due dates and overdue books.
+
+Your task:
+Design a system for the library that adheres to all SOLID principles: Single Responsibility Principle (SRP), 
+Open/Closed Principle (OCP), Liskov Substitution Principle (LSP), Interface Segregation Principle (ISP), and Dependency Inversion Principle (DIP). 
+Consider how to structure the classes, define their responsibilities, and manage their interactions to ensure a modular, flexible, and maintainable system.
+
+You can start by identifying the high-level classes, their responsibilities,
+ and how they interact with each other to fulfill the requirements. Think about how to separate concerns, 
+ establish proper abstractions or interfaces, and minimize dependencies between components. 
+ Consider how you can handle the borrowing, returning, and tracking of books, as well as the communication with patrons for notifications.
+
+Once you've designed the system, provide an overview of the classes, their responsibilities, 
+and how they adhere to each SOLID principle to create a well-structured and robust library management system.
+
+
+
+
+
+
